@@ -71,19 +71,32 @@ LIST WindowKnowledge = steam_on_glass, fingerprints_on_glass, fingerprints_on_gl
     { bedroomLightState ? seen:     <- seen_light  }
     <- compare_prints(-> top)
 
+// Clues
+// 1. Meat jerky (chewed)
+// 2. Paw prints (?)
+// 3. Black fur (?)
+// 4. 
+//
 // Locations in dining room:
 // - The Christmas Tree
-//      - Around the base
+//      - Around the base (CLUE: Remains of meat jerky - for the forensics lab. Dust for paw prints - if you have the relevant item. Take jerky? No, it's too high up - only an agile cat or a tall cat could reach it. But not the first time - two criminals?)
 //      - Underneath
 //      - The top (climbing)
+// - Inspect the crime scene
+//      - (This is the end hub, you get different outcomes depending on which clues you have. Including modifiers from certain items.)
+//      - 1 Clue: Like AI, you cannot know! The case remains a complete mystery!
+//     - 2 Clues: We'll, we can rule out the humans, the sticks, the pods, and the Geralts!
+//      - 3 Clues: Evidence suggests (broad type of cat)
+//      - 4 Clues: It was the Naughty Kitty!
 // - The Dining Room Table
-//      - Undernearth
-//          : SnootSense: Paw prints coming from the hallway!
+//      - Underneath
+//          : SnootSense: Paw prints coming from the hallway! (CLUE)
 //          : SnootInspect: Lego boxes
 //          : SnootInspect: Companion Cube Head
 //      - The top (jumping)
 //          : SnootInspect: Some bottles. Perchance, Baileys later?
-//          : SnootSense: Paw prints leading down the hallway!
+//          : SnootSense: Paw prints leading down the hallway! (CLUE)
+//.          : SnootInspect: The bag definitely still contains jerky.
 //          : Push: Smash! How satisfying.
 //              : (Future: May lead to other things like Shards and Ants.)
 // - The Companion Cube Head
@@ -92,7 +105,7 @@ LIST WindowKnowledge = steam_on_glass, fingerprints_on_glass, fingerprints_on_gl
 //          : Snooze: You curl up, tail around your nose, and rest after some tiring invesitgation.
 //          : WakeUp: You slowly blink your eyes open, wondering about biscuits.
 //      - On Top
-//          > It collapses and you are embarrassed.
+//          > It collapses and you are embarrassed. (Apply a status effect that takes time, like having to bathe yourself before you can continue.)
 // - The Bar
 //      - Underneath
 //      - A shelf (jump)
