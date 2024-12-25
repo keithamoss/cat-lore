@@ -71,23 +71,26 @@ LIST WindowKnowledge = steam_on_glass, fingerprints_on_glass, fingerprints_on_gl
     { bedroomLightState ? seen:     <- seen_light  }
     <- compare_prints(-> top)
 
+// Solutions:
+// 1. Collect all of the clues, solve the case.
+// 2. Take the jerky, become the criminal.
+// 3. Take the jerky evidence, plant it on another cat, get done by IA. (Suspended on full pay.)
+//
 // Clues
 // 1. Meat jerky (chewed)
-// 2. Paw prints (?)
-// 3. Black fur (?)
-// 4. 
+// 2. Paw prints (seen from top of table)
+// 3. Black fur (found nearby under the table)
 //
 // Locations in dining room:
 // - The Christmas Tree
-//      - Around the base (CLUE: Remains of meat jerky - for the forensics lab. Dust for paw prints - if you have the relevant item. Take jerky? No, it's too high up - only an agile cat or a tall cat could reach it. But not the first time - two criminals?)
+//      - Around the base (CLUE: Remains of meat jerky - for the forensics lab. Allows planting of evidence ending and dysentery ending. Dust for paw prints - if you have the relevant item. Take jerky? No, it's too high up - only an agile cat or a tall cat could reach it. But not the first time - two criminals?)
 //      - Underneath
-//      - The top (climbing)
-// - Inspect the crime scene
-//      - (This is the end hub, you get different outcomes depending on which clues you have. Including modifiers from certain items.)
+//      - The top (climbing - status effect embarrassed)
+// - Inspect the crime scene, try to solve the case
+//      - (This is the end hub, you get different outcomes depending on which clues you have. Including modifiers from certain items. You cannot proceed if you are embarrassed. You cannot proceed if you are afeared.)
 //      - 1 Clue: Like AI, you cannot know! The case remains a complete mystery!
-//     - 2 Clues: We'll, we can rule out the humans, the sticks, the pods, and the Geralts!
-//      - 3 Clues: Evidence suggests (broad type of cat)
-//      - 4 Clues: It was the Naughty Kitty!
+//     - 2 Clues: Well, we can rule out the humans, the sticks, the pods, and the Geralts!
+//      - 3 Clues: It was the Naughty Kitty!
 // - The Dining Room Table
 //      - Underneath
 //          : SnootSense: Paw prints coming from the hallway! (CLUE)
@@ -95,8 +98,7 @@ LIST WindowKnowledge = steam_on_glass, fingerprints_on_glass, fingerprints_on_gl
 //          : SnootInspect: Companion Cube Head
 //      - The top (jumping)
 //          : SnootInspect: Some bottles. Perchance, Baileys later?
-//          : SnootSense: Paw prints leading down the hallway! (CLUE)
-//.          : SnootInspect: The bag definitely still contains jerky.
+//.          : SnootInspect: The bag definitely still contains jerky. (Allows taking of jerky ending.)
 //          : Push: Smash! How satisfying.
 //              : (Future: May lead to other things like Shards and Ants.)
 // - The Companion Cube Head
@@ -109,12 +111,14 @@ LIST WindowKnowledge = steam_on_glass, fingerprints_on_glass, fingerprints_on_gl
 // - The Bar
 //      - Underneath
 //      - A shelf (jump)
+//      - Mina (Target for evidence planting.)
 // - The box of bags
 //      : SnootInspect: Afeared
 //      : PawAt: Bags fall onto the ground
+//      : Scarlett (Target for evidence planting.)
 // 
 // Ideas:
-// - "You have died of dysentry"
+// - "You have died of dysentry" (If you try and eat the jerky evidence.)
 
 +   (dobed) [The bed...]
     The bed was low to the ground, but not so low something might not roll underneath. It was still neatly made.
