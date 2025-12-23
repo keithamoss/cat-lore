@@ -459,11 +459,11 @@ It's clue debug.
     * [Greet DI Scarlett]
         # IMAGE: media/scarlett_not_impressed.jpeg
         
-        "What time do you call this, {GENDERTERM}?"
+        'What time do you call this, {GENDERTERM}?'
         
-        "Nevermind, get out your notebook and go have a look around for clues - do some real police work for a change, not just all of that theoretical bullshit."
+        'Nevermind, get out your notebook and go have a look around for clues - do some real police work for a change, not just all of that theoretical bullshit.'
         
-        "Come back to me whenever you've got something to show from the investigation."
+        'Come back to me whenever you've got something to show from the investigation.'
         
         -> Main
         
