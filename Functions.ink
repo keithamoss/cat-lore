@@ -33,3 +33,6 @@
     - else:
       ~ return false || reach(statesToSet) 
     }
+
+=== function has_all_clues()
+    ~ return ClueKnowledge == LIST_ALL(ClueKnowledge)
