@@ -2,4 +2,8 @@
 
 For H and Scarlett, with ❤️
 
-![Scarlett, wearing bat wings](media/scarlett_wings.jpeg)
+<img src="media/scarlett_wings.jpeg" width="400" alt="Scarlett, wearing bat wings">
+
+## Episodes
+
+- [S01E01](/s01e01/)
