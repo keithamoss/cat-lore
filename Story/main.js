@@ -165,6 +165,11 @@
             delay += 200.0;
         }
 
+        // CUSTOM ADDITION: add a horizontal separator between content and choices
+        var separatorElement = document.createElement('hr');
+        storyContainer.appendChild(separatorElement);
+        showAfter(delay, separatorElement);
+
         // Create HTML choices from ink choices
         story.currentChoices.forEach(function (choice) {
 
