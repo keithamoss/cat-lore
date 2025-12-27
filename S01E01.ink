@@ -8,12 +8,6 @@
 //  It could be tiny and episodic and be an advent calendar experiment for one year.
 //  Make it a bit like the real world but warped in a Calvin and Hobbes sort of way e.g. the cat police evidence lockers are under the stairs.
 
-// STORY TITLE
-// “The Case of the Meat Jerky Theft”
-// “The Curious Case of the Meat Jerky Theft”
-// “The Curious Case of the Missing Meat Jerky”
-// "The Meat Jerky Case"
-
 // INITIAL OUTLINE
 // You need to find a series of clues in and around the dining room to solve the case and find the missing meat jerky.
 // The story ends on a cliffhanger with the jerky being found, but it's been chewed - so you send it off to kitty forensics (Kitty Crime Lab?) for analysis.
@@ -24,18 +18,6 @@
 // You can't declare a crime scene until you've exhausted searching other locations. If you do, the other police cats admonish you for sloppy police work.
 // Each location grants your a clue in the form of knowledge gained. Collecting all of the clues enables the "Declare crime scene" option around the Christmas tree.
 // The PERPETRATOR is The Naughty Kitty, but we can't apprehend them as they've disappeared
-
-// CLUES
-// 1. Something found under the tree (means? motive?)
-// 2. A trail of paw prints leading under the dining room table (direction?)
-// 3. ??? (object? weapon?)
-// 4. Black fuzz
-
-// TODO - MVP
-// - Write the dialogue
-// - Add photos
-// - Play test
-// - Publish onlne as /s01e01/
 
 // TODO - Optional
 // - Phonebook a witness
@@ -48,7 +30,7 @@
 // - How will we share functions and core logic/structure between stories? (e.g. given the locations will be re-used and added to over time e.g. given that some functions like 'groom yourself' will also be shared)
 // - How will we save state and transfer between episodes?
 
-// LOCATIONS
+// LOCATIONS (Initial outline - not all locations used in the final story)
 // - The Christmas Tree
 //      - Around the base
 //      - Underneath
@@ -83,7 +65,8 @@
 //      - Taking nip from the evidence locker (Snööts stops you)
 //      - Cold storage for Snoot's corposes (the fridge)
 
-// The PERPETRATOR is The Naughty Kitty, but we can't apprehend them as they've disappeared
+// Conclusion: The PERPETRATOR is The Naughty Kitty, but we can't apprehend them as they've disappeared
+
 
 INCLUDE Functions.ink
 INCLUDE Samples.ink
