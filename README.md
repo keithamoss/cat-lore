@@ -21,6 +21,7 @@ For subsequent story updates:
 
 # S01E02
 
+- See `S01E02 Ideas.md`
 - Read through [The Intercept](https://www.inklestudios.com/ink/) example for game structure ideas
 - Read through [Unity Integration](https://www.inklestudios.com/ink/) for ideas for future episodes
 - `Functions.ink` is common and shared amongst stories
