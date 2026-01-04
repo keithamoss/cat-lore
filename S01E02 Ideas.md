@@ -1,0 +1,3 @@
+- [ ] Take inspo from the conversation UI from Disco Elysium
+- [ ] Take inspo from the different personalities from Disco Elysium too?
+- [ ] Take inspo from levelling and dice rolling from BG3 (e.g. skip checks for taking nip from the evidence locker, interrogating suspects)
